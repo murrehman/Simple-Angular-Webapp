@@ -8,12 +8,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule, HttpHandler } from '@angular/common/http';
 import { AuthComponent } from './auth/auth.component';
+import { SingleEmployeeComponent } from './single-employee/single-employee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeComponent,
-    AuthComponent
+    AuthComponent,
+    SingleEmployeeComponent
   ],
   imports: [
     BrowserModule,

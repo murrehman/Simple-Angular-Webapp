@@ -23,6 +23,11 @@ export class EmployeeService {
     return this.http.get(this.url)
   }
 
+  //get single employee
+  getEmployeebyId(id: any) {
+    return this.http.get(this.url + `/${id}`)
+  }
+
 
   deleteEmployee(id: any) {
     return this.http.delete(`${this.url}/${id}`)
